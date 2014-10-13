@@ -7,3 +7,6 @@
 [submodule "vimfiles/bundle/vim-monokai-refined"]
 	path = vimfiles/bundle/vim-monokai-refined
 	url = https://github.com/jaromero/vim-monokai-refined
+[submodule "vimfiles/bundle/ctrlp.vim"]
+	path = vimfiles/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git

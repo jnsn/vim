@@ -4,3 +4,6 @@
 [submodule "vimfiles/bundle/tagbar"]
 	path = vimfiles/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "vimfiles/bundle/vim-monokai-refined"]
+	path = vimfiles/bundle/vim-monokai-refined
+	url = https://github.com/jaromero/vim-monokai-refined

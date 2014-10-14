@@ -52,7 +52,7 @@ set laststatus=2
 set matchtime=2
 
 " Set status line contents
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y][POS=%l,%v]\[%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
+" set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y][POS=%l,%v]\[%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
 
 " Enable CTRL-A/CTRL-X to work on octal and hex numbers, as well as characters
 set nrformats=octal,hex,alpha

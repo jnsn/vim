@@ -13,4 +13,3 @@ if has("gui_running")
 	set guioptions+=b
 endif
 
-source vimfiles/.myvimrc

@@ -32,23 +32,6 @@ Configuration
 	`vimfiles` folder. On Windows this can be done with the following command:
 	`mklink /H _vimrc vimfiles\vimrc`.
 
-```
-set nocompatible
-source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
-behave mswin
-
-set backupdir=$VIMRUNTIME/tmp/backup//
-set directory=$VIMRUNTIME/tmp/swp//
-
-" Run fullscreen in GUI mode
-if has("gui_running")
-    au GUIEnter * simalt ~x
-	set guioptions+=b
-endif
-
-```
-
 ### Optional
 
 As seen from the configuration above, I create my backup and swap folder in

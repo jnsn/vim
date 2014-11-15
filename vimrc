@@ -1,3 +1,23 @@
+set nocompatible
+source $VIMRUNTIME/vimrc_example.vim
+source $VIMRUNTIME/mswin.vim
+behave mswin
+
+set backupdir=$VIMRUNTIME/tmp/backup//
+set directory=$VIMRUNTIME/tmp/swp//
+
+" Run fullscreen in GUI mode
+if has("gui_running")
+    au GUIEnter * simalt ~x
+	set guioptions+=b
+endif
+
+if has ('win32')
+    set guifont=Powerline_Consolas:h9:cANSI
+else
+    set guifont=Powerline\ Consolas\ 10
+endif
+
 execute pathogen#infect()
 filetype plugin on 
 filetype indent on
@@ -6,9 +26,6 @@ syntax on
 " Set color scheme
 " set background=dark
 colorscheme monokai-refined
-
-" Set GUI font and font-size
-set guifont=Consolas:h10
 
 " Write contents of the file, if it has been modified, on buffer exit
 set autowrite

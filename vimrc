@@ -124,7 +124,11 @@ nmap <silent> <F7> :NERDTreeToggle<CR>
 nmap <silent> <F6> :set number!<CR>
 nmap <F8> :TagbarToggle<CR>
 
+let g:tagbar_ctags_bin="C:\\ProgramData\\chocolatey\\bin\\ctags.exe"
 let g:vim_markdown_folding_disabled=1
+let g:javascript_enable_domhtmlcss=1
+let g:javascript_ignore_javaScriptdoc=1
+let g:used_javascript_libs = 'underscore,backbone,jquery,angularjs,react,requirejs'
 
 
 function MyDiff()
